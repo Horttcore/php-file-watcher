@@ -1,19 +1,6 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 1/2/2020
- * Time: 2:27 PM
- */
+namespace ralfhortt\fswatcher;
 
-namespace tc\fswatcher;
-
-
-/**
- * Class EventTypes
- *
- * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package tc\fswatcher
- */
 class EventTypes
 {
     const FILE_ADDED = 'FILE_ADDED';

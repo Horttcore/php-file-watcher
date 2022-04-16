@@ -1,21 +1,8 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 1/2/2020
- * Time: 1:02 PM
- */
-
-namespace tc\fswatcher;
-
+namespace ralfhortt\fswatcher;
 
 use Throwable;
 
-/**
- * Class InvalidPathException
- *
- * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package tc
- */
 class InvalidPathException extends \Exception
 {
     public function __construct($path, $code = 0, Throwable $previous = null)

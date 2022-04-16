@@ -1,17 +1,21 @@
 {
-    "name": "tc/php-watch-files",
+    "name": "ralfhortt/php-watch-files",
     "description": "Watch file or folder and execute code when something is changes inside",
     "license": "MIT",
     "authors": [
         {
             "name": "Zura Sekhniashvili",
             "email": "zurasekhniashvili@gmail.com"
+        },
+        {
+            "name": "Ralf Hortt",
+            "email": "mail@ralfhortt.dev"
         }
     ],
     "require": {},
     "autoload": {
         "psr-4": {
-            "tc\\fswatcher\\": "src//"
+            "ralfhortt\\fswatcher\\": "src//"
         }
     }
 }

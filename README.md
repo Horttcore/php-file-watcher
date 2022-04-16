@@ -11,7 +11,7 @@ php index.php FILE_OR_FOLDER_PATH
 ### Basic usage
 
 ```php
-$watcher = new \tc\fswatcher\Watcher('FILE_OR_FOLDER_PATH_TO_WATCH', function ($event) {
+$watcher = new \ralfhortt\fswatcher\Watcher('FILE_OR_FOLDER_PATH_TO_WATCH', function ($event) {
     // Do whatever you want when file or folder is changed.
     if ($event->isAddition()){
         // File was added and file path will be $event->file
@@ -25,7 +25,7 @@ $watcher->watch();
 ### Advanced Usage
 
 ```php
-$watcher = new \tc\fswatcher\Watcher('FILE_OR_FOLDER_PATH_TO_WATCH', 'callback', [
+$watcher = new \ralfhortt\fswatcher\Watcher('FILE_OR_FOLDER_PATH_TO_WATCH', 'callback', [
     'watchInterval' => 5,
     'cacheChanges' => true
 ]);
@@ -37,3 +37,9 @@ $watcher = new \tc\fswatcher\Watcher('FILE_OR_FOLDER_PATH_TO_WATCH', 'callback',
 |---------------|---------------|------------------------------------------------------------------|
 | watchInterval | 1             | How often the file changes should be checked                     |
 | cacheChanges  | true          | Gather file modifications in single check and trigger event once |
+
+
+### Credits
+
+* The code is written by Zura Sekhniashvili <zurasekhniashvili@gmail.com>
+* I've repacked it as a composer package

@@ -1,18 +1,6 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 1/2/2020
- * Time: 1:01 PM
- */
+namespace ralfhortt\fswatcher;
 
-namespace tc\fswatcher;
-
-/**
- * Class Watcher
- *
- * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package tc
- */
 class Watcher
 {
     private $path;

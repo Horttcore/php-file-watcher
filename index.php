@@ -1,12 +1,6 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 12/24/2019
- * Time: 8:36 AM
- */
-
-use tc\fswatcher\Event;
-use tc\fswatcher\Watcher;
+use ralfhortt\fswatcher\Event;
+use ralfhortt\fswatcher\Watcher;
 
 require __DIR__ . '/vendor/autoload.php';
 

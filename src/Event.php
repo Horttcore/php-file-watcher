@@ -1,19 +1,6 @@
 <?php
-/**
- * User: TheCodeholic
- * Date: 1/2/2020
- * Time: 2:26 PM
- */
+namespace ralfhortt\fswatcher;
 
-namespace tc\fswatcher;
-
-
-/**
- * Class Event
- *
- * @author Zura Sekhniashvili <zurasekhniashvili@gmail.com>
- * @package tc\watcher
- */
 class Event
 {
     public $type = null;
